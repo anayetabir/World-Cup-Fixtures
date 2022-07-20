@@ -63,19 +63,25 @@ section {
 
 
 /* section2 */
+.section2 {
+    display: flex;
+    gap: 30px;
+
+}
 
 .blog-1 {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: auto;
 }
 
-.blog-2 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
+
 
 .button {
-    height: 200px;
+
+
+    height: 170px;
     width: 250px;
     text-align: center;
     border-radius: 10px;
@@ -85,14 +91,46 @@ section {
     background-color: black;
 }
 
-#b1 {
-    height: 0px;
-    background-color: brown;
+.buttonAll {
+    display: flex;
+    flex-direction: column;
+
+
 }
 
-#b2 {
-    padding-top: 30px;
+.buttonAll a {
+    text-decoration: none;
+    color: black;
+
 }
+
+.b1 {
+    font-size: 20px;
+    padding: 17px;
+    border-radius: 10px;
+    margin-top: -80px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.b2 {
+    font-size: 20px;
+    padding: 17px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.b3 {
+    background-color: rgb(238, 64, 64);
+    font-size: 20px;
+    padding: 17px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+
+
 
 .transfer-1 {
     border: 2px solid chocolate;
@@ -111,19 +149,35 @@ section {
 }
 
 .transfer-4 {
-    padding-left: 400px;
+    border: 2px solid chocolate;
+    border-radius: 5px;
+    margin-left: 0px;
     padding-bottom: 30px;
 }
 
 .transfer-5 {
+    border: 2px solid chocolate;
+    border-radius: 5px;
     padding-left: 30px;
     padding-bottom: 30px;
 }
 
 .transfer-6 {
+    border: 2px solid chocolate;
+    border-radius: 5px;
     padding-left: 30px;
     padding-bottom: 30px;
 }
+
+.img {
+    display: flex;
+
+}
+
+.img span {
+    padding: 5px;
+}
+
 
 
 
