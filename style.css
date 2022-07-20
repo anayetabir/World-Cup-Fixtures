@@ -62,6 +62,8 @@ section {
 
 
 
+
+
 /* section2 */
 .section2 {
     display: flex;
@@ -294,6 +296,29 @@ footer h2 {
     padding-left: 100px;
     padding-top: 40px;
     color: white;
+}
+
+.fa-facebook {
+    color: white;
+
+}
+
+.fa-whatsapp {
+    color: white;
+
+
+}
+
+.fa-instagram {
+    color: white;
+
+}
+
+.foot {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    margin-right: 10px;
 }
 
 /* footer done */
