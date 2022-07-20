@@ -3,32 +3,37 @@ body {
 }
 
 section {
-    display: flex;
+    margin-bottom: 100px;
+}
+
+/* Section1*/
+.section1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     height: 600px;
     border-radius: 50px;
-    background-color: rgb(37, 34, 34);
-    padding: ;
+    background-color: rgb(17, 3, 3);
     margin: 50px 100px 50px 100px;
 }
 
 .h1 {
     font-size: 60px;
     color: rgb(233, 243, 232);
-    /* padding: 00px 10px 30px 10px; */
     text-align: justify;
     margin-top: 100px;
     margin-left: 90px;
 }
 
 
-.image1 {
-    height: 100%;
-    width: 100%;
-    margin-left: 0px;
-    margin-top: 0px;
+.image1 img {
+    height: 600px;
+    width: 600px;
+
+
 }
 
 #p1 {
+    font-family: 'Edu TAS Beginner', cursive;
     color: white;
     font-size: 20px;
     margin-left: 90px;
@@ -37,12 +42,104 @@ section {
 }
 
 #button1 {
+    font-size: 18px;
     color: white;
     text-decoration: none;
-    background-image: linear-gradient(red, rgb(217, 92, 70));
-    padding: 20px 40px 20px 40px;
+    background-image: linear-gradient(red, rgb(181, 66, 46));
+    padding: 15px 17px 15px 17px;
     border-radius: 5px;
     margin-left: 90px;
     line-height: 100px;
 
+}
+
+.fa-thin {
+    padding-left: 20px;
+}
+
+/* section1 done */
+
+
+
+/* section2 */
+
+footer {
+    background-color: rgb(5, 1, 1);
+    height: 444px;
+}
+
+footer h2 {
+    font-size: 35px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: rgb(240, 233, 233);
+    text-align: center;
+
+}
+
+.hr {
+    width: 80%;
+}
+
+#p2 {
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    padding-left: 200px;
+    padding-top: 40px;
+    color: white;
+}
+
+#p3 {
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    padding-left: 100px;
+    padding-top: 40px;
+    color: white;
+}
+
+#p4 {
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    padding-left: 100px;
+    padding-top: 40px;
+    color: white;
+}
+
+#p5 {
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    padding-left: 100px;
+    padding-top: 40px;
+    color: white;
+}
+
+#p5 {
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    padding-left: 100px;
+    padding-top: 40px;
+    color: white;
+}
+
+#p6 {
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    padding-left: 100px;
+    padding-top: 40px;
+    color: white;
+}
+
+#p7 {
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    padding-left: 100px;
+    padding-top: 40px;
+    color: white;
 }
