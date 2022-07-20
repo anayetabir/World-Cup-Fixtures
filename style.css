@@ -64,7 +64,66 @@ section {
 
 /* section2 */
 
+.blog-1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
 
+.blog-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.button {
+    height: 200px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 70px;
+    padding-top: 100px;
+    padding-right: 20px;
+    background-color: black;
+}
+
+#b1 {
+    height: 0px;
+    background-color: brown;
+}
+
+#b2 {
+    padding-top: 30px;
+}
+
+.transfer-1 {
+    border: 2px solid chocolate;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.transfer-2 {
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.transfer-3 {
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.transfer-4 {
+    padding-left: 400px;
+    padding-bottom: 30px;
+}
+
+.transfer-5 {
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.transfer-6 {
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
 
 
 
@@ -170,4 +229,5 @@ footer h2 {
     padding-top: 40px;
     color: white;
 }
+
 /* footer done */
