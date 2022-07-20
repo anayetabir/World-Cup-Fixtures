@@ -1,0 +1,48 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+section {
+    display: flex;
+    height: 600px;
+    border-radius: 50px;
+    background-color: rgb(37, 34, 34);
+    padding: ;
+    margin: 50px 100px 50px 100px;
+}
+
+.h1 {
+    font-size: 60px;
+    color: rgb(233, 243, 232);
+    /* padding: 00px 10px 30px 10px; */
+    text-align: justify;
+    margin-top: 100px;
+    margin-left: 90px;
+}
+
+
+.image1 {
+    height: 100%;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+#p1 {
+    color: white;
+    font-size: 20px;
+    margin-left: 90px;
+    text-align: justify;
+
+}
+
+#button1 {
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(red, rgb(217, 92, 70));
+    padding: 20px 40px 20px 40px;
+    border-radius: 5px;
+    margin-left: 90px;
+    line-height: 100px;
+
+}
