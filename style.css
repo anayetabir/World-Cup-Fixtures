@@ -376,7 +376,7 @@ footer h2 {
 }
 
 /* Mobile Device */
-@media only screen and (max-width:576px) {
+@media only screen and (max-width:586px) {
 
 
     .section1 {
@@ -490,7 +490,7 @@ footer h2 {
         display: flex;
         text-align: center;
         height: 60px;
-        margin-left: 70px;
+        margin-left: 20px;
         margin-top: 20px;
         gap: 10px;
     }
@@ -511,7 +511,7 @@ footer h2 {
 }
 
 /* Tablet Device */
-@media screen and (min-width:577px) and (max-width:820px) {
+@media screen and (min-width:587px) and (max-width:850px) {
 
 
     .section1 {
