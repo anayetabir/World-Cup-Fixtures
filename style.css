@@ -303,6 +303,18 @@ footer h2 {
 
 /* footer done */
 
+#button2 {
+    visibility: hidden;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(red, rgb(181, 66, 46));
+    padding: 15px 20px 15px 20px;
+    border-radius: 5px;
+    margin-left: 500px;
+    line-height: 100px;
+}
+
 
 /* MatchDay */
 .flag {
@@ -506,43 +518,91 @@ footer h2 {
 }
 
 /* Tablet Device */
-@media screen and (min-width:577) and (max-width:992) {
+@media screen and (min-width:577px) and (max-width:850px) {
 
-    footer {
-        background-color: rgb(5, 1, 1);
-        height: 1200px;
-        width: 1000px;
+
+    .section1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 100%;
+        /* height:600px; */
+        width: 100%;
+        margin-left: -20px;
+        border-radius: 50px;
+        background-color: rgb(17, 3, 3);
 
     }
 
-    #p2 {
-        display: inline-block;
-        margin-left: -70px;
-    }
-
-    #p3 {
-        display: inline-block;
-        margin-left: -70px;
-    }
-
-    #p4 {
-        display: inline-block;
-        margin-left: -70px;
-    }
-
-    #p5 {
-        display: inline-block;
-        margin-left: -70px;
-    }
-
-    #p6 {
+    .section2 {
         display: block;
-        margin-left: -70px;
+
+
     }
 
-    #p7 {
-        display: inline-block;
-        margin-left: -70px;
+    .blog-1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        grid-auto-rows: auto;
+    }
+
+    .button {
+        margin-left: 50px;
+        background-color: white;
+    }
+
+    .buttonAll {
+        display: inline;
+        flex-direction: row-reverse;
+
+
+    }
+
+    .section3 {
+        display: block;
+
+
+    }
+
+    .blog-2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        grid-auto-rows: auto;
+    }
+
+    .button {
+
+        display: flex;
+
+        height: 170px;
+        width: 250px;
+        text-align: center;
+        border-radius: 10px;
+        margin-left: 70px;
+        padding-top: 100px;
+        padding-right: 20px;
+        background-color: white;
+    }
+
+    #button2 {
+        visibility: visible;
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        background-image: linear-gradient(red, rgb(181, 66, 46));
+        padding: 15px 20px 15px 20px;
+        border-radius: 5px;
+        margin-left: 350px;
+        line-height: 100px;
+    }
+    .flag1 {
+        display: flex;
+        text-align: center;
+        height: 60px;
+        margin-left: 30px;
+        margin-top: 20px;
+        gap: 10px;
     }
 
 
