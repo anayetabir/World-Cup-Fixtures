@@ -249,14 +249,7 @@ footer h2 {
     color: white;
 }
 
-#p5 {
-    display: inline-block;
-    text-align: center;
-    font-size: 15px;
-    padding-left: 100px;
-    padding-top: 40px;
-    color: white;
-}
+
 
 #p6 {
     display: inline-block;
@@ -351,7 +344,7 @@ footer h2 {
 
 .f2 {
     border: 1px solid whitesmoke;
-    margin-left: 20px;
+    margin-left: 50px;
     margin-right: 20px;
     text-align: center;
     border-radius: 10px;
@@ -518,7 +511,7 @@ footer h2 {
 }
 
 /* Tablet Device */
-@media screen and (min-width:577px) and (max-width:850px) {
+@media screen and (min-width:577px) and (max-width:820px) {
 
 
     .section1 {
@@ -596,6 +589,7 @@ footer h2 {
         margin-left: 350px;
         line-height: 100px;
     }
+
     .flag1 {
         display: flex;
         text-align: center;
@@ -603,6 +597,21 @@ footer h2 {
         margin-left: 30px;
         margin-top: 20px;
         gap: 10px;
+    }
+
+    footer {
+        background-color: rgb(5, 1, 1);
+        height: 600px;
+
+    }
+
+    #p5 {
+        display: inline-block;
+        text-align: center;
+        font-size: 15px;
+        padding-left: 200px;
+        padding-top: 40px;
+        color: white;
     }
 
 
