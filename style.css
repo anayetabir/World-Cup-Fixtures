@@ -10,7 +10,9 @@ section {
 .section1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    height: 600px;
+    height: 80%;
+    /* height:600px; */
+    width: 80%;
     border-radius: 50px;
     background-color: rgb(17, 3, 3);
     margin: 50px 100px 50px 100px;
@@ -26,14 +28,17 @@ section {
 
 
 .image1 img {
-    height: 600px;
-    width: 580px;
+    /* height:600px;
+       width:580px;
+     */
+    width: 80%;
+    height: 100%;
     padding: 0px;
 
 
 }
 
-#p1 {
+.p1 {
     font-family: 'Edu TAS Beginner', cursive;
     color: white;
     font-size: 20px;
@@ -135,43 +140,7 @@ section {
 }
 
 
-.transfer-1 {
 
-    border: 2px solid black;
-    border-radius: 5px;
-}
-
-
-.transfer-2 {
-    padding-left: 30px;
-    padding-bottom: 30px;
-}
-
-.transfer-3 {
-    padding-left: 30px;
-    padding-bottom: 30px;
-}
-
-.transfer-4 {
-    border: 2px solid chocolate;
-    border-radius: 5px;
-    margin-left: 0px;
-    padding-bottom: 30px;
-}
-
-.transfer-5 {
-    border: 2px solid chocolate;
-    border-radius: 5px;
-    padding-left: 30px;
-    padding-bottom: 30px;
-}
-
-.transfer-6 {
-    border: 2px solid chocolate;
-    border-radius: 5px;
-    padding-left: 30px;
-    padding-bottom: 30px;
-}
 
 
 
@@ -187,9 +156,17 @@ section {
 .blog-1 a {
     color: black;
     text-decoration: none;
-    border: 2px solid black;
+    line-height: 40px;
+    border: 2px solid rgb(188, 176, 176);
+    padding: 5px;
     border-radius: 2px;
 
+}
+
+.f1 {
+    border: 1px solid whitesmoke;
+    padding-bottom: 20px;
+    border-radius: 10px;
 }
 
 
@@ -234,6 +211,7 @@ footer h2 {
 .hr {
     width: 80%;
 }
+
 
 #p2 {
     display: inline-block;
@@ -300,11 +278,13 @@ footer h2 {
 
 .fa-facebook {
     color: white;
+    padding-right: 20px;
 
 }
 
 .fa-whatsapp {
     color: white;
+    padding-right: 20px;
 
 
 }
@@ -318,7 +298,252 @@ footer h2 {
     text-align: center;
     margin-top: 40px;
     font-size: 30px;
-    margin-right: 10px;
+
 }
 
 /* footer done */
+
+
+/* MatchDay */
+.flag {
+    display: flex;
+    text-align: center;
+    height: 80px;
+    gap: 20px;
+}
+
+.section3 {
+    display: flex;
+    gap: 30px;
+
+}
+
+.blog-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: auto;
+}
+
+.flag1 {
+    display: flex;
+    text-align: center;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    gap: 10px;
+}
+
+
+
+.f2 {
+    border: 1px solid whitesmoke;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.b4 {
+    background-color: rgb(218, 76, 25);
+    font-size: 20px;
+    padding: 17px;
+    border-radius: 10px;
+    margin-top: -80px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.b5 {
+    font-size: 20px;
+    padding: 17px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.b6 {
+    font-size: 20px;
+    padding: 17px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+/* Mobile Device */
+@media only screen and (max-width:576px) {
+
+
+    .section1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: 100%;
+        /* height:600px; */
+        width: 100%;
+        margin-left: -20px;
+        border-radius: 50px;
+        background-color: rgb(17, 3, 3);
+
+    }
+
+    .h1 {
+        font-size: 30px;
+        color: rgb(233, 243, 232);
+        text-align: justify;
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+
+    .p1 {
+        font-family: 'Edu TAS Beginner', cursive;
+        color: white;
+        font-size: 15px;
+        margin-left: 50px;
+        padding-right: 10px;
+        text-align: justify;
+
+
+    }
+
+    .image1 img {
+        /* height:600px;
+           width:580px;
+         */
+        width: 80%;
+        height: 100%;
+        padding-left: 80px;
+
+
+    }
+
+
+    .section2 {
+        display: block;
+
+
+    }
+
+    .image1 img {
+        width: 50%;
+    }
+
+    .blog-1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    footer {
+        background-color: rgb(5, 1, 1);
+        height: 900px;
+
+    }
+
+    #p2 {
+        display: block;
+        margin-left: -170px;
+    }
+
+    #p3 {
+        display: block;
+        margin-left: -70px;
+    }
+
+    #p4 {
+        display: block;
+        margin-left: -70px;
+    }
+
+    #p5 {
+        display: block;
+        margin-left: -70px;
+    }
+
+    #p6 {
+        display: block;
+        margin-left: -70px;
+    }
+
+    #p7 {
+        display: block;
+        margin-left: -70px;
+    }
+
+    .section3 {
+        display: block;
+
+
+    }
+
+    .blog-2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .flag1 {
+        display: flex;
+        text-align: center;
+        height: 60px;
+        margin-left: 70px;
+        margin-top: 20px;
+        gap: 10px;
+    }
+
+    .button {
+        margin-left: 50px;
+        background-color: white;
+    }
+
+    .f1 {
+        border: 1px solid whitesmoke;
+        padding-bottom: 20px;
+        margin-left: 30px;
+        border-radius: 10px;
+    }
+
+
+}
+
+/* Tablet Device */
+@media screen and (min-width:577) and (max-width:992) {
+
+    footer {
+        background-color: rgb(5, 1, 1);
+        height: 1200px;
+        width: 1000px;
+
+    }
+
+    #p2 {
+        display: inline-block;
+        margin-left: -70px;
+    }
+
+    #p3 {
+        display: inline-block;
+        margin-left: -70px;
+    }
+
+    #p4 {
+        display: inline-block;
+        margin-left: -70px;
+    }
+
+    #p5 {
+        display: inline-block;
+        margin-left: -70px;
+    }
+
+    #p6 {
+        display: block;
+        margin-left: -70px;
+    }
+
+    #p7 {
+        display: inline-block;
+        margin-left: -70px;
+    }
+
+
+}
